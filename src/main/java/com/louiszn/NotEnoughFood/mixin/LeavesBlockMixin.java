@@ -3,11 +3,9 @@ package com.louiszn.NotEnoughFood.mixin;
 import net.minecraft.block.Block;
 import net.minecraft.block.LeavesBlock;
 import net.minecraft.block.material.Material;
-import net.minecraft.entity.mob.SkeletonEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
-import org.lwjgl.Sys;
 import org.spongepowered.asm.mixin.Mixin;
 
 @Mixin(LeavesBlock.class)
