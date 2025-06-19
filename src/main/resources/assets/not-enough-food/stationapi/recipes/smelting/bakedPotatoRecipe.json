@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "not-enough-food:potato"
+  },
+  "result": {
+    "item": "not-enough-food:baked_potato"
+  }
+}

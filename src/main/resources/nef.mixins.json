@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.louiszn.NotEnoughFood.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "DyeItemMixin",
+    "LeavesBlockMixin",
+    "LivingEntityMixin",
+    "SheepEntityMixin"
+  ],
+  "server": [
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

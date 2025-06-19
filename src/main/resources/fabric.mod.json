@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "not-enough-food",
+  "version": "${version}",
+  "name": "Not Enough Food",
+  "description": "A b1.7.3 mod for food lover",
+  "authors": [
+    "Louiszn",
+    "Floriszn"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/not-enough-food/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.louiszn.NotEnoughFood.Main"
+    ],
+    "stationapi:event_bus": [
+      "com.louiszn.NotEnoughFood.listener.ItemListener",
+      "com.louiszn.NotEnoughFood.listener.BlockListener"
+    ],
+    "stationapi:event_bus_client": [
+      "com.louiszn.NotEnoughFood.listener.TextureListener"
+    ]
+  },
+  "mixins": [
+    "nef.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "minecraft": "1.0.0-beta.7.3"
+  }
+}

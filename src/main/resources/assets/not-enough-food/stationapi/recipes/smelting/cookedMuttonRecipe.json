@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "not-enough-food:raw_mutton"
+  },
+  "result": {
+    "item": "not-enough-food:cooked_mutton"
+  }
+}

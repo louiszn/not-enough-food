@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " g ",
+    "gCg",
+    " g "
+  ],
+  "key": {
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "C": {
+      "item": "not-enough-food:carrot"
+    }
+  },
+  "result": {
+    "item": "not-enough-food:golden_carrot",
+    "count": 1
+  }
+}

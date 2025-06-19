@@ -1,0 +1,16 @@
+item.@.potato.name=Potato
+item.@.baked_potato.name=Baked Potato
+item.@.poisonous_potato.name=Poisonous Potato
+item.@.potato_soup.name=Potato Soup
+item.@.carrot.name=Carrot
+item.@.carrot_soup.name=Carrot Soup
+item.@.golden_carrot.name=Golden Carrot
+item.@.raw_beef.name=Raw Beef
+item.@.cooked_beef.name=Cooked Beef
+item.@.raw_mutton.name=Raw Mutton
+item.@.cooked_mutton.name=Cooked Mutton
+item.@.raw_chicken.name=Raw Chicken
+item.@.cooked_chicken.name=Cooked Chicken
+
+tile.@.potato_crop.name=Potato Crop
+tile.@.carrot_crop.name=Carrot Crop
