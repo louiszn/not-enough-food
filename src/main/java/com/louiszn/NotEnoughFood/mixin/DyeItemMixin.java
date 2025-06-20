@@ -26,20 +26,22 @@ public class DyeItemMixin {
     private void useOnBlock(ItemStack stack, PlayerEntity player, World world, int x, int y, int z, int side, CallbackInfoReturnable<Boolean> cir) {
         int blockId = world.getBlockId(x, y, z);
 
-        if (!world.isRemote) {
-            if (blockId == BlockListener.potatoCrop.id) {
+        if (blockId == BlockListener.potatoCrop.id) {
+            if (!world.isRemote) {
                 ((PotatoCropBlock) BlockListener.potatoCrop).applyFullGrowth(world, x, y, z);
                 --stack.count;
-                cir.setReturnValue(true);
-                return;
             }
 
-            if (blockId == BlockListener.carrotCrop.id) {
+            cir.setReturnValue(true);
+        }
+
+        if (blockId == BlockListener.carrotCrop.id) {
+            if (!world.isRemote) {
                 ((CarrotCropBlock) BlockListener.carrotCrop).applyFullGrowth(world, x, y, z);
                 --stack.count;
-                cir.setReturnValue(true);
-                return;
             }
+
+            cir.setReturnValue(true);
         }
     }
 }
